@@ -1,4 +1,20 @@
 .about {
-    height: 600px;
-    background-color: silver;
+    
+    min-height: 500px;
+    background-color: white;
+    &__overlay {
+        display: block;
+        text-align: center;
+    }
+    &__items {
+        padding-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    &__img {
+        height: 100px;
+        width: 120px;
+        
+    }
 }
