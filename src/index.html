@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/src/css/bootstrap.min.css">
     <link rel="stylesheet" href="/src/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/src/css/animate.css">
     <link rel="stylesheet" href="/src/css/style.min.css">
     <title>Dmitriy Web developer</title>
 </head>
@@ -15,22 +16,22 @@
                 <nav>
                     <div class="container">
                         <ul class="promo__menu">
-                            <li class="promo__item"><a href="#" class="promo__link">Главная</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Навыки</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Мои Работы</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Контакты</a></li>
+                            <li class="promo__item"><a href="#" class="promo__link">Home</a></li>
+                            <li class="promo__item"><a href="#" class="promo__link">Skills</a></li>
+                            <li class="promo__item"><a href="#" class="promo__link">Jobs</a></li>
+                            <li class="promo__item"><a href="#" class="promo__link">Contacts</a></li>
                         </ul>
                     </div>
                 </nav>
         </header>
         <div class="container">
             <h1 class="promo__title">
-                Web - разработчик
+                Web - developer
             </h1>
             <h2 class="promo__subtitle">
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus.
             </h2>
-            <button type="button" class="btn btn-success promo__btn"><a href="#">Связаться со мной</a></button>
+            <button type="button" class="promo__btn"><a href="#">Contact me</a></button>
             <!-- <div class="promo__down">
                 <a href="#" class="promo__down_link"><img src="/src/icons/down-arrow.svg" alt="down" class="promo__down_img"></a>
             </div> -->
@@ -43,25 +44,32 @@
     <section id="about" class="about">
         <div class="container">
             <div class="about__overlay">
-                <h2 class="title">Обо мне</h2>
+                <h2 class="title">About me</h2>
                 <div class="line"></div>
             </div>
             <div class="descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum soluta quos illo velit labore delectus, hic excepturi saepe debitis ex ullam recusandae at quis vitae nemo, ut pariatur minima expedita.</div>
-            <div class="about__items">
+            <div class="about__items slideInUp wow">
                 <img src="/src/icons/html-5.png" alt="" class="about__img">
                 <img src="/src/icons/css.png" alt="" class="about__img">
                 <img src="/src/icons/javascript.png" alt="" class="about__img">
-
-
             </div>
-            <div class="about__items">
+            <div class="about__items slideInUp wow">
                 <img src="/src/icons/sass.png" alt="" class="about__img">
+                <img src="/src/icons/Bootstrap.png" alt="" class="about__img">
                 <img src="/src/icons/git.png" alt="" class="about__img">
+                
             </div>
             
         </div>
     </section>
 
-    
+    <section class="jobs"> 
+        <div class="container">
+            <h2 class="title">My Jobs</h2>
+            <div class="line"></div>           
+        </div>
+    </section>
+    <script src="/src/js/wow.min.js"></script>
+    <script src="/src/js/script.js"></script>
 </body>
 </html>

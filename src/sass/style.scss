@@ -1,5 +1,16 @@
 @import 'blocks/_promo';
 @import 'blocks/_about';
 @import 'blocks/_general';
+@import 'blocks/_jobs';
+
+* {
+    font-family: Sansumi; /* Имя шрифта */
+    src: url(/src/fonts/deathStranding/Sansumi-Regular.ttf); /* Путь к файлу со шрифтом */ 
+}
+    @font-face {
+        font-family: Sansumi; /* Имя шрифта */
+        src: url(/src/fonts/deathStranding/Sansumi-Regular.ttf); /* Путь к файлу со шрифтом */
+       }
+
 
 
