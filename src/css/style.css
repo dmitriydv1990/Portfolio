@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
 }
@@ -57,14 +58,27 @@ header {
 
 .promo__btn {
   display: block;
-  margin: 100px auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 50px auto;
+  padding: 8px;
+  width: 25%;
+  background: #fff;
+  /* запасной цвет для старых браузеров */
+  background: rgba(44, 218, 10, 0);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
   text-decoration: none;
-  height: 60px;
-  width: 230px;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
-.promo__btn a {
-  font-size: 22px;
+.promo__btn:hover {
+  background: #337AB7;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
 }
 
 .promo__social {
@@ -87,7 +101,7 @@ header {
 .arrow {
   left: 50%;
   position: absolute;
-  bottom: 100px;
+  bottom: 50px;
   width: 40px;
   height: 40px;
 }
@@ -170,7 +184,17 @@ header {
 
 .about {
   min-height: 500px;
-  background-color: white;
+  background-color: #e9e7e7;
+}
+
+.about__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about__descr {
+  padding-left: 30px;
 }
 
 .about__overlay {
@@ -179,30 +203,37 @@ header {
 }
 
 .about__items {
-  padding-top: 60px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
+  padding-top: 60px;
+  width: 700px;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.about__img {
-  height: 100px;
-  width: 120px;
+.about__descr {
+  padding: 4%;
+  width: 500px;
+  font-size: 17px;
+  font-weight: 700;
 }
 
 .title {
   padding-top: 70px;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: uppercase;
   display: block;
   margin: 0 auto;
+  font-weight: bold;
+  text-align: center;
 }
 
 .line {
-  border: solid red 2px;
-  width: 220px;
+  border: solid #337AB7 2px;
+  width: 260px;
   display: block;
   margin: 0 auto;
 }
@@ -213,5 +244,54 @@ header {
   margin: 0 auto;
   width: 750px;
   padding-top: 30px;
+}
+
+.text {
+  text-align: center;
+  padding-top: 30px;
+}
+
+.frame {
+  width: 165px;
+  height: 180px;
+  padding: 5%;
+  border: 1px solid silver;
+  margin: 10px auto;
+  border-radius: 5%;
+  -webkit-box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+          box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  -moz-transition: all 1s ease-out;
+  -o-transition: all 1s ease-out;
+  -webkit-transition: all 1s ease-out;
+}
+
+.frame:hover {
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.frame img {
+  text-align: center;
+  height: 100px;
+  width: 100px;
+}
+
+.jobs {
+  min-height: 600px;
+}
+
+* {
+  font-family: Sansumi;
+  /* Имя шрифта */
+  src: url(/src/fonts/deathStranding/Sansumi-Regular.ttf);
+  /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Sansumi;
+  /* Имя шрифта */
+  src: url(/src/fonts/deathStranding/Sansumi-Regular.ttf);
+  /* Путь к файлу со шрифтом */
 }
 /*# sourceMappingURL=style.css.map */

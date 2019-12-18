@@ -1,20 +1,34 @@
 .about {
-    padding-bottom: 100px;
+    
     min-height: 500px;
     background-color: rgb(233, 231, 231);
+    &__wrapper {
+        display: flex;
+        
+
+        
+    }
+
+    &__descr {
+        padding-left: 30px;
+    }
     &__overlay {
         display: block;
         text-align: center;
     }
     &__items {
-        padding-top: 60px;
         display: flex;
-        justify-content: space-around;
+        padding-top: 60px;
+        width: 700px;
+        align-content: space-between;
+        flex-wrap: wrap;
         
     }
-    &__img {
-        height: 100px;
-        width: 120px;
-        
+
+    &__descr {
+        padding: 4%;
+        width: 500px;
+        font-size: 17px;
+        font-weight: 700;
     }
 }
