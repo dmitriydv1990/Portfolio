@@ -1,3 +1,18 @@
 .jobs {
     min-height: 600px;
+    &__wrapper {
+        padding-top: 30px;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+
+    }
+    &__img {
+        width: 300px;
+        min-height: 440px;
+        justify-content: space-between;
+        margin: 0 auto;
+        border-radius: 3%;
+    }
 }
+
