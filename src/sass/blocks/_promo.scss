@@ -43,26 +43,8 @@ header {
 		text-decoration: none;
 		color: white;
 	}
-	&__btn {
-		display: block;
-		box-sizing: border-box;
-		margin: 100px auto;
-		padding: 8px;
-		width: 80%;
-		max-width: 200px;
-		background: #fff; /* запасной цвет для старых браузеров */
-		background: rgba(44, 218, 10, 0);
-		border-radius: 8px;
-		color: #fff;
-		text-align: center;
-		text-decoration: none;
-		letter-spacing: 1px;
-		transition: all 0.3s ease-out;
-		&:hover {
-			background: #337AB7;
-			transition: all 0.4s ease-in;
-		}
-	}
+
+	
 	&__social {
 		display: flex;
 		justify-content: center;
@@ -75,8 +57,6 @@ header {
 		}
 	}
 }
-
-
 .arrow {
 	left: 50%;
 	position: absolute;
