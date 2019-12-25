@@ -56,31 +56,6 @@ header {
   color: white;
 }
 
-.promo__btn {
-  display: block;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  margin: 50px auto;
-  padding: 8px;
-  width: 25%;
-  background: #fff;
-  /* запасной цвет для старых браузеров */
-  background: rgba(44, 218, 10, 0);
-  border-radius: 8px;
-  color: #fff;
-  text-align: center;
-  text-decoration: none;
-  letter-spacing: 1px;
-  -webkit-transition: all 0.3s ease-out;
-  transition: all 0.3s ease-out;
-}
-
-.promo__btn:hover {
-  background: #337AB7;
-  -webkit-transition: all 0.4s ease-in;
-  transition: all 0.4s ease-in;
-}
-
 .promo__social {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -277,8 +252,84 @@ header {
   width: 100px;
 }
 
+button {
+  display: block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 50px auto;
+  padding: 8px;
+  width: 25%;
+  background: #fff;
+  /* запасной цвет для старых браузеров */
+  background: rgba(44, 218, 10, 0);
+  border-radius: 8px;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  letter-spacing: 1px;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+button:hover {
+  background: #337AB7;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+
 .jobs {
   min-height: 600px;
+}
+
+.jobs__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+
+.jobs__item {
+  position: relative;
+  padding-top: 30px;
+}
+
+.jobs__item:hover {
+  background: rgba(44, 218, 10, 0);
+}
+
+.jobs__item img {
+  width: 500px;
+  min-height: 400px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.jobs__item_link {
+  position: absolute;
+  left: 33%;
+  bottom: 6%;
+  height: 38px;
+  width: 170px;
+  text-align: center;
+  padding: 5px;
+  border: solid white 2px;
+  color: white;
+  font-weight: 700;
+}
+
+.jobs__item_link:hover {
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 * {
