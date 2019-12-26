@@ -3,10 +3,14 @@
 	
 }
 
+
+
 header {
 	background-color: rgba(0, 0, 0, .6);
-	display: fixed;
+	position: fixed;
 	top: 0;
+	width: 100%;
+	z-index: 3;
 }
 .promo {
 	
