@@ -1,0 +1,47 @@
+.contacts {
+    background: url('/src/img/contacts_BG.jpg') center 100% no-repeat;
+    min-height: 600px;
+    &__wrapper {
+        height: 350px;
+        width: 80%;
+        margin: 30px auto;
+        background-color: rgb(201, 198, 198);
+        border-radius: 10px;
+        background: rgba(0, 0, 0, .2);
+        
+        
+    }
+    &__items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 9%;
+    }
+    &__item {
+       text-align: center;
+       min-width: 200px;
+       min-height: 200px;
+
+    }
+    &__img {
+        height: 90px;
+        width: 90px;
+    }
+    &__link {
+        display: block;
+        padding: 10px;
+        border: solid 2px white;
+        margin-top: 30px;
+        width: 279px;
+        color: white;
+        font-weight: 700;
+        &:hover {
+            text-decoration: none;
+            color: black;
+            transition: all 0.4s ease-in;
+            background-color: white;
+            
+        }
+        
+    }
+}

@@ -1,0 +1,15 @@
+.footer {
+    min-height: 150px;
+    background-color: white;
+    text-align: center;
+    padding-top: 30px;
+    &__icon {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+    }
+    &__copyright {
+        padding-top: 20px;
+        font-weight: 700;
+    }
+}

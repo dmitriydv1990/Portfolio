@@ -206,6 +206,10 @@ header {
   text-align: center;
 }
 
+.title__white {
+  color: white;
+}
+
 .line {
   border: solid #337AB7 2px;
   width: 260px;
@@ -330,6 +334,78 @@ button:hover {
   background-color: white;
   -webkit-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+
+.contacts {
+  background: url("/src/img/contacts_BG.jpg") center 100% no-repeat;
+  min-height: 600px;
+}
+
+.contacts__wrapper {
+  height: 350px;
+  width: 80%;
+  margin: 30px auto;
+  background-color: #c9c6c6;
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.contacts__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding-top: 9%;
+}
+
+.contacts__item {
+  text-align: center;
+  min-width: 200px;
+  min-height: 200px;
+}
+
+.contacts__img {
+  height: 90px;
+  width: 90px;
+}
+
+.contacts__link {
+  display: block;
+  padding: 10px;
+  border: solid 2px white;
+  margin-top: 30px;
+  width: 279px;
+  color: white;
+  font-weight: 700;
+}
+
+.contacts__link:hover {
+  text-decoration: none;
+  color: black;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  background-color: white;
+}
+
+.footer {
+  min-height: 150px;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.footer__icon {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+.footer__copyright {
+  padding-top: 20px;
+  font-weight: 700;
 }
 
 * {
