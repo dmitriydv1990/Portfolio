@@ -12,9 +12,7 @@
     &__item {
         position: relative;
         padding-top: 30px;
-        &:hover {
-            background: rgba(44, 218, 10, 0);
-        }
+
         
         
         img {
@@ -22,6 +20,7 @@
             min-height: 400px;
             justify-content: space-between;
             margin: 0 auto;
+            background-image: cover 100%;
             
         }
         &_link {

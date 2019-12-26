@@ -77,3 +77,14 @@ button {
         transition: all 0.4s ease-in;
     }
 }
+
+.arrow-up {
+    height: 50px;
+    widows: 50px;
+    position: absolute;
+    z-index: 2;
+    bottom: 50px;
+    position: fixed;
+    right: 50px;
+    
+}

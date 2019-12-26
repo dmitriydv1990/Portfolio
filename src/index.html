@@ -11,15 +11,15 @@
     <title>Dmitriy Web developer</title>
 </head>
 <body>
-    <section class="promo">
+    <section id="promo" class="promo">
         <header>
                 <nav>
                     <div class="container">
                         <ul class="promo__menu">
-                            <li class="promo__item"><a href="#" class="promo__link">Home</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Skills</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Jobs</a></li>
-                            <li class="promo__item"><a href="#" class="promo__link">Contacts</a></li>
+                            <li class="promo__item"><a href="#promo" class="promo__link">Home</a></li>
+                            <li class="promo__item"><a href="#about" class="promo__link">Skills</a></li>
+                            <li class="promo__item"><a href="#jobs" class="promo__link">Jobs</a></li>
+                            <li class="promo__item"><a href="#contacts" class="promo__link">Contacts</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -32,7 +32,7 @@
                 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus.
             </h2>
             <button type="button" class=""><a href="#">Contact me</a></button>
-            <button type="button" class=""><a href="#">Download CV</a></button>
+            <!-- <button type="button" class=""><a href="#">Download CV</a></button> -->
             <!-- <div class="promo__down">
                 <a href="#" class="promo__down_link"><img src="/src/icons/down-arrow.svg" alt="down" class="promo__down_img"></a>
             </div> -->
@@ -75,7 +75,7 @@
         </div>
     </section>
 
-    <section class="jobs"> 
+    <section id="jobs" class="jobs"> 
         <div class="container">
             <h2 class="title">My Jobs</h2>
             <div class="line"></div> 
@@ -95,8 +95,7 @@
         </div>
     </section>
 
-    <section class="contacts">
-        <!-- <div class="container"> -->
+    <section id="contacts" class="contacts">
             <h2 class="title title__white">
                 Contacts
             </h2>
@@ -116,16 +115,19 @@
                     </div>
                 </div>
             </div>
-        <!-- </div> -->
     </section>
 
     <footer class="footer">
         <a href="https://github.com/dmitriydv1990"><img src="/src/icons/github.svg" alt="" class="footer__icon"></a>
         <a href="https://www.linkedin.com/in/dmitriy-dmitriyev/"><img src="/src/icons/linkedin.svg" alt="" class="footer__icon"></a>
         <div class="footer__copyright">COPYRIGHT © 2019 DMITRIY DMITRIYEV</div>
-
     </footer>
+
+    <div class="arrow-up">
+        <a href="#promo"><img src="/src/icons/arrow-up.svg" alt="" class="arrow-up"></a>
+    </div>
     <script src="/src/js/wow.min.js"></script>
+    <script src="/src/js/jquery-3.4.1.min.js"></script>
     <script src="/src/js/script.js"></script>
 </body>
 </html>
